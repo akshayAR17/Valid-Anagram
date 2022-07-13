@@ -4,11 +4,10 @@ https://leetcode.com/problems/valid-anagram/submissions/
  
  --> A question from leetcode. This problem has been asked many times in FAANG companies & other MNC's online coding round.
  --> I have written the code in an optimised way.
- --> Approach is very simple. I have considered a frequency array of integer type, which holds the frequecies of individual characters in an array.
+ --> Approach is very simple. I have considered a frequency array of integer type, which holds the frequencies of individual characters in an array.
  --> If the size of the strings are not equal, then the function would return false, which clearly states, the given strings are not anagram.
- --> If that is not the case,then I will traverse through both the strings, upon taversal I increment & decrement the count of the same characters that appear in both the strings.
- ---> Ultimately, I taverse the frequency array. If the frequency of any character is found to be greater than 0, then function would return false, otherwise true..
- which confirms that the given strings are anagram.
+ --> If that is not the case,then I will traverse both the strings, upon traversal I increment & decrement the count of the same characters that appear in both the strings.
+ ---> Ultimately, I taverse the frequency array. If the frequency of any character is found to be greater than 0(zero), then function would return false, otherwise true... which confirms that the given strings are anagram.
  
  Time Complexity : O(n)
  Auxiliary Space : O(1)
